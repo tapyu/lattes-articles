@@ -1,0 +1,13 @@
+[project]
+name = "googlerecaptchabypass"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-recaptcha-bypass",
+    "numpy>=2.2.6",
+]
+
+[tool.uv.sources]
+google-recaptcha-bypass = { git = "https://github.com/tapyu/GoogleRecaptchaBypass", rev = "patch-1" }
