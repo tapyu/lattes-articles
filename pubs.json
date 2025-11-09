@@ -1,42 +1,42 @@
 [
     {
         "title": "An all-digital coherent AFSK demodulator for CubeSat applications",
-        "authors": "PACELLI, RUBEM VASCONCELOS 2025 PACELLI, RUBEM VASCONCELOS ; FLORINDO, RODRIGO DE LIMA ; ANTREICH, FELIX ; DE LUCENA, ANTÔNIO MACILIO PAREIRA",
+        "authors": "PACELLI, RUBEM VASCONCELOS ; FLORINDO, RODRIGO DE LIMA ; ANTREICH, FELIX ; DE LUCENA, ANTÔNIO MACILIO PAREIRA",
         "place": "DIGITAL SIGNAL PROCESSING , v. 162, p. 105147",
         "year": "2025",
-        "doi": null,
+        "doi": "10.1016/j.dsp.2025.105147",
         "class": "Artigos completos publicados em periódicos"
     },
     {
         "title": "Técnica de Seleção de Portadoras para Sistema OFDM em Canais Dispersivos no Tempo",
-        "authors": "FIGUEIREDO, S. S. 2020 FIGUEIREDO, S. S. ; LUCENA, A. M. P. ; PACELLI, R. V.",
+        "authors": "FIGUEIREDO, S. S. ; LUCENA, A. M. P. ; PACELLI, R. V.",
         "place": "Brazilian Journal of Development , v. 6, p. 14318-14324",
         "year": "2020",
-        "doi": null,
+        "doi": "10.34117/bjdv6n3-340",
         "class": "Artigos completos publicados em periódicos"
     },
     {
         "title": "Técnica de sincronização de portadora para sistemas de comunicação OFDM",
-        "authors": "PACELLI, R. V. 2020 PACELLI, R. V. ; LUCENA, A. M. P. ; FIGUEIREDO, S. S.",
+        "authors": "PACELLI, R. V. ; LUCENA, A. M. P. ; FIGUEIREDO, S. S.",
         "place": "Brazilian Journal of Development , v. 6, p. 14297-14305",
         "year": "2020",
-        "doi": null,
+        "doi": "10.34117/bjdv6n3-338",
         "class": "Artigos completos publicados em periódicos"
     },
     {
         "title": "Modem GMSK completamente digital com demodulação não-coerente",
-        "authors": "PACELLI, R. V. 2020 PACELLI, R. V. ; LUCENA, A. M. P.",
+        "authors": "PACELLI, R. V. ; LUCENA, A. M. P.",
         "place": "Brazilian Journal of Development , v. 6, p. 17988-17996",
         "year": "2020",
-        "doi": null,
+        "doi": "10.34117/bjdv6n4-099",
         "class": "Artigos completos publicados em periódicos"
     },
     {
         "title": "Sistema OFDM com estimadores de frequência e de fase para sincronização de portadora",
-        "authors": "PACELLI, RUBEM VASCONCELOS 2019 PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE",
+        "authors": "PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE",
         "place": "REVISTA TECNOLOGIA , v. 40, p. 1-16",
         "year": "2019",
-        "doi": null,
+        "doi": "10.5020/23180730.2019.7506",
         "class": "Artigos completos publicados em periódicos"
     },
     {
@@ -44,23 +44,15 @@
         "authors": "PACELLI, R. V. ; MOREIRA, N. A. ; MACIEL, T. F. ; KACOU, M. ; GOSSET, M.",
         "place": "José Eduardo Souza De Cursi. (Org.). Proceedings of the 6th International Symposium on Uncertainty Quantification and Stochastic Modelling. 1ed.Switzerland: Springer Cham",
         "year": "2023",
-        "doi": null,
+        "doi": "10.1007/978-3-031-47036-3_17",
         "class": "Capítulos de livros publicados"
     },
     {
         "title": "SINCRONIZAÇÃO DO TEMPO DE SÍMBOLO EM SISTEMAS OFDM",
         "authors": "PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE ; Araújo, Daniel Costa ; Mourão, Jonas Almeida",
-        "place": "Francisco Odécio Sales. (Org.). Ciências Exatas e da Terra: Exploração e Qualificação de Diferentes Tecnologias",
-        "year": "",
-        "doi": null,
-        "class": "Capítulos de livros publicados"
-    },
-    {
-        "title": "1ed.Ponta Grossa: Atena Editora, 2021, v",
-        "authors": "",
-        "place": "4, p. 200-207",
+        "place": "Francisco Odécio Sales. (Org.). Ciências Exatas e da Terra: Exploração e Qualificação de Diferentes Tecnologias 4. 1ed.Ponta Grossa: Atena Editora",
         "year": "2021",
-        "doi": null,
+        "doi": "10.22533/at.ed.13021130118",
         "class": "Capítulos de livros publicados"
     },
     {
@@ -68,7 +60,7 @@
         "authors": "PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE",
         "place": "Edilson Antonio Catapan. (Org.). Os impactos de estudos voltados para as ciências exatas (Vol. 1). 01ed.São José dos Pinhais: Brazilian Journals Editora",
         "year": "2020",
-        "doi": null,
+        "doi": "10.35587/brj.ed.0000587",
         "class": "Capítulos de livros publicados"
     },
     {
@@ -76,7 +68,7 @@
         "authors": "PACELLI, RUBEM VASCONCELOS ; ARAGON-ANGEL, ANGELA ; GARCÍA, ADRIÀ ROVIRA ; DE ALMEIDA, ANDRE LIMA FERRER ; ANTREICH, FELIX",
         "place": "37th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2024), 2024, Baltimore",
         "year": "2024",
-        "doi": null,
+        "doi": "10.33012/2024.19929",
         "class": "Trabalhos completos publicados em anais de congressos"
     },
     {
@@ -88,11 +80,11 @@
         "class": "Trabalhos completos publicados em anais de congressos"
     },
     {
-        "title": "All-digital AFSK modem with Viterbi detection for TT&amp;C CubeSat transceiver",
+        "title": "All-digital AFSK modem with Viterbi detection for TT&C CubeSat transceiver",
         "authors": "PACELLI, RUBEM ; LUCENA, ANTONIO ; MOTA, JOAO",
         "place": "XXXVIII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais",
         "year": "2020",
-        "doi": null,
+        "doi": "10.14209/SBRT.2020.1570654898",
         "class": "Trabalhos completos publicados em anais de congressos"
     },
     {

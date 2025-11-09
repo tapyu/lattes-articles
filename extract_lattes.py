@@ -14,12 +14,8 @@ import re
 import json
 from pathlib import Path
 
-try:
-    from bs4 import BeautifulSoup
-    from bs4 import NavigableString
-    HAS_BS4 = True
-except Exception:
-    HAS_BS4 = False
+from bs4 import BeautifulSoup
+from bs4 import NavigableString
 
 TARGET_CLASSES = [
     "Artigos completos publicados em periódicos",
@@ -61,24 +57,6 @@ def is_junk_text(s: str) -> bool:
     if letters / max(1, len(s)) < 0.3:
         return True
     return False
-
-
-def split_numbered_block(text: str) -> list:
-    # Split blocks like "1. ... 2. ... 3. ..." into separate items.
-    if not re.search(r'\b1\.|\b1\)', text):
-        return [text]
-    # split by a sequence that starts with optional whitespace and a number+dot or number+")"
-    parts = re.split(r'(?=(?:^|\s)\d{1,3}[\.)]\s)', text)
-    out = []
-    for p in parts:
-        p = p.strip()
-        if not p:
-            continue
-        # remove leading numbering like '1. ' or '1) '
-        p = re.sub(r'^[\d]{1,3}[\.)]\s*', '', p)
-        if p and not is_junk_text(p):
-            out.append(p)
-    return out
 
 
 def extract_doi_from_node(node, fallback_text: str = ""):
@@ -233,58 +211,10 @@ def extract_with_bs4(html: str) -> list:
             if explicit_doi and not record.get("doi"):
                 record["doi"] = explicit_doi
             results.append(record)
-    if results:
-        return results
-    return extract_with_fallback(html)
-
-def extract_with_fallback(html: str) -> list:
-    results = []
-    lower = html.lower()
-    occurrences = []
-    for cls in TARGET_CLASSES:
-        idx = lower.find(cls.lower())
-        if idx != -1:
-            occurrences.append((idx, cls))
-    occurrences.sort()
-    stop_markers = [
-        '<div class="cita-artigos"',
-        '<div class="inst_back"',
-        '<div class="title-wrapper"',
-    ]
-    for pos, cls in occurrences:
-        start = pos + len(cls)
-        next_pos = None
-        for candidate_pos, _ in occurrences:
-            if candidate_pos > pos:
-                next_pos = candidate_pos
-                break
-        block = html[start:next_pos] if next_pos is not None else html[start:]
-        block_lower = block.lower()
-        cut_points = [
-            idx for marker in stop_markers
-            if (idx := block_lower.find(marker)) != -1
-        ]
-        if cut_points:
-            block = block[:min(cut_points)]
-        parts = re.split(r"<li[^>]*>|<br\s*/?>|\n\s*\n", block, flags=re.I)
-        for p in parts:
-            text = re.sub(r'<[^>]+>', ' ', p)
-            text = clean_whitespace(text)
-            if not text:
-                continue
-            if is_junk_text(text):
-                continue
-            # split numbered blocks
-            splits = split_numbered_block(text)
-            for sp in splits:
-                if YEAR_RE.search(sp) or DOI_RE.search(sp) or len(sp.split())>8:
-                    results.append(parse_entry_text(sp, cls))
     return results
 
 def extract(html: str) -> list:
-    if HAS_BS4:
-        return extract_with_bs4(html)
-    return extract_with_fallback(html)
+    return extract_with_bs4(html)
 
 def main():
     src = Path('page.html')
