@@ -1,0 +1,138 @@
+[
+    {
+        "title": "An all-digital coherent AFSK demodulator for CubeSat applications",
+        "authors": "PACELLI, RUBEM VASCONCELOS 2025 PACELLI, RUBEM VASCONCELOS ; FLORINDO, RODRIGO DE LIMA ; ANTREICH, FELIX ; DE LUCENA, ANTÔNIO MACILIO PAREIRA",
+        "place": "DIGITAL SIGNAL PROCESSING , v. 162, p. 105147",
+        "year": "2025",
+        "doi": null,
+        "class": "Artigos completos publicados em periódicos"
+    },
+    {
+        "title": "Técnica de Seleção de Portadoras para Sistema OFDM em Canais Dispersivos no Tempo",
+        "authors": "FIGUEIREDO, S. S. 2020 FIGUEIREDO, S. S. ; LUCENA, A. M. P. ; PACELLI, R. V.",
+        "place": "Brazilian Journal of Development , v. 6, p. 14318-14324",
+        "year": "2020",
+        "doi": null,
+        "class": "Artigos completos publicados em periódicos"
+    },
+    {
+        "title": "Técnica de sincronização de portadora para sistemas de comunicação OFDM",
+        "authors": "PACELLI, R. V. 2020 PACELLI, R. V. ; LUCENA, A. M. P. ; FIGUEIREDO, S. S.",
+        "place": "Brazilian Journal of Development , v. 6, p. 14297-14305",
+        "year": "2020",
+        "doi": null,
+        "class": "Artigos completos publicados em periódicos"
+    },
+    {
+        "title": "Modem GMSK completamente digital com demodulação não-coerente",
+        "authors": "PACELLI, R. V. 2020 PACELLI, R. V. ; LUCENA, A. M. P.",
+        "place": "Brazilian Journal of Development , v. 6, p. 17988-17996",
+        "year": "2020",
+        "doi": null,
+        "class": "Artigos completos publicados em periódicos"
+    },
+    {
+        "title": "Sistema OFDM com estimadores de frequência e de fase para sincronização de portadora",
+        "authors": "PACELLI, RUBEM VASCONCELOS 2019 PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE",
+        "place": "REVISTA TECNOLOGIA , v. 40, p. 1-16",
+        "year": "2019",
+        "doi": null,
+        "class": "Artigos completos publicados em periódicos"
+    },
+    {
+        "title": "A Data-Based Estimation of Power-Law Coefficients for Rainfall via Levenberg-Marquardt Algorithm: Results from the West African Testbed",
+        "authors": "PACELLI, R. V. ; MOREIRA, N. A. ; MACIEL, T. F. ; KACOU, M. ; GOSSET, M.",
+        "place": "José Eduardo Souza De Cursi. (Org.). Proceedings of the 6th International Symposium on Uncertainty Quantification and Stochastic Modelling. 1ed.Switzerland: Springer Cham",
+        "year": "2023",
+        "doi": null,
+        "class": "Capítulos de livros publicados"
+    },
+    {
+        "title": "SINCRONIZAÇÃO DO TEMPO DE SÍMBOLO EM SISTEMAS OFDM",
+        "authors": "PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE ; Araújo, Daniel Costa ; Mourão, Jonas Almeida",
+        "place": "Francisco Odécio Sales. (Org.). Ciências Exatas e da Terra: Exploração e Qualificação de Diferentes Tecnologias",
+        "year": "",
+        "doi": null,
+        "class": "Capítulos de livros publicados"
+    },
+    {
+        "title": "1ed.Ponta Grossa: Atena Editora, 2021, v",
+        "authors": "",
+        "place": "4, p. 200-207",
+        "year": "2021",
+        "doi": null,
+        "class": "Capítulos de livros publicados"
+    },
+    {
+        "title": "SISTEMA GMSK COM DEMODULAÇÃO NÃO-COERENTE E IMPLEMENTAÇÃO COMPLETAMENTE DIGITAL.",
+        "authors": "PACELLI, RUBEM VASCONCELOS ; LUCENA, ANTÔNIO MACILIO PEREIRA DE",
+        "place": "Edilson Antonio Catapan. (Org.). Os impactos de estudos voltados para as ciências exatas (Vol. 1). 01ed.São José dos Pinhais: Brazilian Journals Editora",
+        "year": "2020",
+        "doi": null,
+        "class": "Capítulos de livros publicados"
+    },
+    {
+        "title": "Convolutional Neural Networks for Time Series Classification of Ionospheric Scintillation",
+        "authors": "PACELLI, RUBEM VASCONCELOS ; ARAGON-ANGEL, ANGELA ; GARCÍA, ADRIÀ ROVIRA ; DE ALMEIDA, ANDRE LIMA FERRER ; ANTREICH, FELIX",
+        "place": "37th International Technical Meeting of the Satellite Division of The Institute of Navigation (ION GNSS+ 2024), 2024, Baltimore",
+        "year": "2024",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Convolutional Long-Short-Term Memory Networks (ConvLSTM) for Weather Prediction using Radar and Satellite Images",
+        "authors": "MOREIRA, N. A. ; PACELLI, R. V. ; SILVA, Y. C. B. ; MACIEL, T. F. ; SIMOES, I. ; MOTA, J. C. M. ; HAMIDA, C. ; PRADO, R. Z. ; CAILLAULT, E. ; KACOU, M. ; GOSSET, M.",
+        "place": "XXIV Congresso Brasileiro de Automática, 2022, Fortaleza. ANAIS DO CBA 2022",
+        "year": "2022",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "All-digital AFSK modem with Viterbi detection for TT&amp;C CubeSat transceiver",
+        "authors": "PACELLI, RUBEM ; LUCENA, ANTONIO ; MOTA, JOAO",
+        "place": "XXXVIII Simpósio Brasileiro de Telecomunicações e Processamento de Sinais",
+        "year": "2020",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Modem GMSK completamente digital com demodulação não-coerente",
+        "authors": "PACELLI, R. V. ; LUCENA, A. M. P.",
+        "place": "XXIV - ENCONTRO DE INICIAÇÃO À PESQUISA, 2018, Fortaleza. XXIV - ENCONTRO DE INICIAÇÃO À PESQUISA",
+        "year": "2018",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Técnica de sincronização de portadora para sistemas de comunicação OFDM",
+        "authors": "PACELLI, R. V. ; LUCENA, A. M. P. ; FIGUEIREDO, S. S.",
+        "place": "XXIII - ENCONTRO DE INICIAÇÃO À PESQUISA, 2017, Fortaleza. XXIII - ENCONTRO DE INICIAÇÃO À PESQUISA",
+        "year": "2017",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Técnica de Seleção de Portadoras para Sistema OFDM em Canais Dispersivos no Tempo",
+        "authors": "FIGUEIREDO, S. S. ; LUCENA, A. M. P. ; PACELLI, R. V.",
+        "place": "XXII Encontro de iniciação à pesquisa, 2017, Fortaleza. XXIII - ENCONTRO DE INICIAÇÃO À PESQUISA",
+        "year": "2017",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Uma técnica para sincronismo de frequência em modulação OFDM",
+        "authors": "MOURAO, J. A. ; LUCENA, A. M. P. ; ARAUJO, D. C. ; PACELLI, R. V.",
+        "place": "Encontros Científicos 2016, 2016, Fortaleza. XXII - ENCONTRO DE INICIAÇÃO À PESQUISA",
+        "year": "2016",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    },
+    {
+        "title": "Eficiência energética na área de programação paralela",
+        "authors": "PACELLI, R. V. ; PONTES, H. P.",
+        "place": "Encontros Científicos, 2015, Fortaleza. XXI Encontro de iniciação à Pesquisa",
+        "year": "2015",
+        "doi": null,
+        "class": "Trabalhos completos publicados em anais de congressos"
+    }
+]
